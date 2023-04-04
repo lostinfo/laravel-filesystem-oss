@@ -9,6 +9,7 @@
             "email": "1225039937@qq.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": "^7.0|^8.0",
         "iidestiny/flysystem-oss": "^2.7"
