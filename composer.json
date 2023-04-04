@@ -1,0 +1,28 @@
+{
+    "name": "lostinfo/laravel-filesystem-oss",
+    "type": "library",
+    "description": "Oss storage filesystem for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GaoWei",
+            "email": "1225039937@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "iidestiny/flysystem-oss": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lostinfo\\LaravelFilesystemOss\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lostinfo\\LaravelFilesystemOss\\OssStorageServiceProvider"
+            ]
+        }
+    }
+}
